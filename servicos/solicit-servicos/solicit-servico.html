@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Pet Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div style="border: none; width: 100%;">
+        <img src="../../resources/imgs/header.png" alt="" width="100%" onclick="location.href='../../index.html'">
+        <!-- <span>header</span> -->
+    </div>
+    <div class="search-and-login">
+        <!-- <span>consulta</span> -->
+        <div style="border: none; width: 40%;">
+            <input type="text" id="edt-pesquisa" placeholder="Pesquisar">
+        </div>
+        <div style="border: none; width: 10%;">
+            <img src="../../resources/icons/search.svg" alt="" style="padding-top: 6px;">
+        </div>
+        <div style="width: 50%; border: none; justify-content: right; text-align: right; display: flex;">
+            <div>
+                <img src="../../resources/icons/person.svg" alt="" style="padding-top: 6px; padding-right: 2px;">
+            </div>
+            <div>
+                <label id="label-entrar" for="" class="label-form" style="margin-right: 20px; padding-top: 10px;">Entre ou cadastre-se</label>
+            </div>
+            <!-- <script src="/global/scripts/validate-user.js"></script> -->
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div class="select-type" style="border-bottom: 1px solid #e8e6e6; height: 40px; width: 100%; display: grid;">
+        <!-- <span>abas de produto/serviço</span> -->
+        <div style="display: flex; border: none; width: 100%;">
+            <div class="div-sel-prod">
+                <button class="button-option" id="button-prod" style="margin-top: 0px; margin-bottom: 0px; margin-left: 10px; width: 80px;" onclick="location.href='/produtos/produtos.html'">Produtos</button>
+            </div>
+            <div class="div-sel-serv">
+                <button class="button-option" id="button-service" style="margin-left: 0px; width: 80px;">Serviços</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- <hr> -->
+    <div class="content-data">
+        <div class="div-cad-pet">
+            <div class="data-cad-pet">
+                <div style="display: flex;">
+                    <div class="cad-pet-nome-idade">
+                        <label id="cad-pet-label-nome" for="">Nome</label>
+                        <br>
+                        <input type="text" id="agendamento-input-nome">
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="cad-pet-tipo">
+                        <label id="cad-pet-label-tipo" for="">Serviço</label>
+                        <br>
+                        <input type="text" id="agendamento-servico-input-servico">
+                    </div>
+                    <div class="cad-pet-tipo">
+                        <label id="agendamento-label-horario" for="">Horario</label>
+                        <br>
+                        <input type="text" id="agendamento-servico-input-horario">
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="check-tele-busca">
+                        <input type="checkbox" id="chk-tele-busca">
+                        <label style="padding-left: 5px;" for="">Tele-busca</label>
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="agendamento-endereco">
+                        <label id="agendamento-label-endereco" for="">Endereço</label>
+                        <br>
+                        <input type="text" id="agendamento-input-endereco">
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="agendamento-numero">
+                        <label id="agendamento-label-numero" for="">Número</label>
+                        <br>
+                        <input type="text" id="agendamento-input-numero">
+                    </div>
+                    <div class="agendamento-numero">
+                        <label id="agendamento-label-complemento" for="">Complemento</label>
+                        <br>
+                        <input type="text" id="agendamento-input-complemento">
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="agendamento-bairro">
+                        <label id="agendamento-label-bairro" for="">Bairro</label>
+                        <br>
+                        <input type="text" id="agendamento-input-bairro">
+                    </div>
+                    <div class="agendamento-cidade">
+                        <label id="agendamento-label-cidade" for="">Cidade</label>
+                        <br>
+                        <input type="text" id="agendamento-input-cidade">
+                    </div>
+                </div>
+                <div class="cad-pet-confirmar-cadastro" style="display: flex;">
+                    <button id="serv-confirmar-agendamento">Confirmar Agendamento</button>
+                </div>
+                <script src="/global/scripts/agendamento.js"></script>
+        </div>
+        </div>
+    <div class="content-footer">
+        <!-- <span>footer</span>         -->
+        <div class="div-footer">
+            <span class="span-footer">Projeto Pet Shop</span>
+            <br>
+            <span class="span-footer">Contato: contato@projetopetshop.com.br</span>
+            <br>
+            <span class="span-footer">Fone: (99) 9999-9999</span>
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -47,39 +47,33 @@
     <br>
     <!-- <hr> -->
     <div class="content-data">
-        <div class="div-login">
-            <div class="login-usuario">
-                <div>
-                    <label for="">Usuário / e-mail</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="username" type="text">
-                </div>
-                <br>
-                <br>
-                <div>
-                    <label for="">Senha</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="password" type="password">
-                </div>
+        <div class="profile-content">
+            <div class="profile-info-welcome">
+                <h3 class="span-welcome-profile">Bem vindo usuário</h2>
+                <!-- <span class="span-welcome-profile">Bem vindo Usuário!</span> -->
+                <!-- <br> -->
+                <span id="info-pet-cadastrado" class="info-pet-cadastrado">Você não registrou nenhum pet.</span>
+                <!-- <script src="/global/scripts/profile-scripts.js"></script> -->
             </div>
-            <div class="div-logar">
-                <div class="div-btn-logar">
-                    <button id="button-logar" class="btn-logar">Logar</button>
-                    <script src="/login/scripts/login-scripts.js"></script>
-                </div>
-                <div class="login-option">
-                    <div class="login-text-options">
-                        <span>Esqueci minha senha</span>
-                        <br>
-                        <span>Registrar-se</span>
-                    </div>
-                </div>
+            <div class="button-cadastrar">
+                <button id="cadastrar-pet" onclick="location.href='/cad-pet/cad-pet.html'">Cadastrar Pet</button>
             </div>
         </div>
+        <div class="profile-content">
+            <div id="div-pet" class="div-pet">
+                <span id="lbl-nome">Nome: </span>
+                <br>
+                <span id="lbl-idade">Idade:</span>
+                <br>
+                <span id="lbl-tipo">Tipo:</span>
+                <br>
+                <span id="lbl-raca">Raça:</span>
+                <br>
+                <span id="lbl-porte">Porte:</span>
+            </div>
+            </div>
+        </div>
+        <script src="/global/scripts/profile-scripts.js"></script>
     <div class="content-footer">
         <!-- <span>footer</span>         -->
         <div class="div-footer">

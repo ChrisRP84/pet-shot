@@ -116,7 +116,7 @@
     height: 25px;
     border: none;
     background-color: #D9D9D9;
-    width: 70%;
+    width: 80%;
 }
 .div-logar{
     justify-content: center;
@@ -128,4 +128,268 @@
     width: 100px;
     color: white;
     background-color: #2972FF;   
+}
+.div-btn-logar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login-text-options{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-content{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+}
+.span-welcome-profile{
+    width: 100%;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+.info-pet-cadastrado{
+    padding-left: 25px;
+    font-size: 14px;
+    /* border: 1px solid green; */
+}
+.button-cadastrar{
+    margin-left: 25px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#cadastrar-pet{
+    border: none;
+    background-color: #2972FF;
+    color: white;
+    width: 120px;
+}
+.div-cad-pet{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.data-cad-pet{
+    /* border: 1px solid green; */
+    line-height: 9px;
+    justify-content: center;
+    width: 90%;
+    /* text-align: center; */
+    display: inline-block;
+}
+.cad-pet-nome-idade{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#cad-pet-label-nome{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#cad-pet-input-nome{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+}
+#cad-pet-label-idade{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#cad-pet-input-idade{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 60%;
+}
+#cad-pet-label-tipo{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#cad-pet-input-tipo{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 65%;
+}
+#cad-pet-label-raca{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#cad-pet-input-raca{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+}
+#cad-pet-label-porte{
+    margin-top: 20px;
+    padding-left: 40px;
+}
+#cad-pet-input-porte{
+    /* padding-left: 10px; */
+    margin-left: 40px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 50%;
+}
+.cad-pet-confirmar-cadastro{
+    justify-content: center;
+}
+#cad-pet-confirmar-cadastro{
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color: #2972FF;
+    color: white;
+    height: 25px;
+    width: 140px;
+}
+.div-pet{
+    margin-left: 25px;
+    border: 1px solid black;
+    width: 50%;
+    padding-left: 10px;
+}
+#serv-confirmar-agendamento{
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color: #2972FF;
+    color: white;
+    height: 25px;
+    width: 180px;
+}
+#agendamento-servico-input-servico{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 90%;
+}
+#agendamento-servico-input-horario{
+    /* padding-left: 10px; */
+    margin-left: 20px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 65%;
+}
+#agendamento-label-horario{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+#chk-tele-busca{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.check-tele-busca{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#agendamento-label-numero{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#agendamento-input-numero{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 50%;
+}
+#agendamento-label-endereco{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#agendamento-input-endereco{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 90%;
+}
+.agendamento-endereco{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#agendamento-label-complemento{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#agendamento-input-complemento{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 80%;
+}
+#agendamento-label-bairro{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#agendamento-input-bairro{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 90%;
+}
+#agendamento-label-cidade{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#agendamento-input-cidade{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 80%;
+}
+#agendamento-input-nome{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: none;
+    height: 25px;
+    border: none;
+    background-color: #D9D9D9;
+}
+.div-servico-agendado{
+    /* border: 1px solid black; */
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+.span-servico-agendado{
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }

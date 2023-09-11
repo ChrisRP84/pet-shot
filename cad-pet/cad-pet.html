@@ -40,44 +40,50 @@
                 <button class="button-option" id="button-prod" style="margin-top: 0px; margin-bottom: 0px; margin-left: 10px; width: 80px;" onclick="location.href='/produtos/produtos.html'">Produtos</button>
             </div>
             <div class="div-sel-serv">
-                <button class="button-option" id="button-service" style="margin-left: 0px; width: 80px; background-color: #D9D9D9;" onclick="location.href='/servicos/servicos.html'">Serviços</button>
+                <button class="button-option" id="button-service" style="margin-left: 0px; width: 80px;">Serviços</button>
             </div>
         </div>
     </div>
     <br>
     <!-- <hr> -->
     <div class="content-data">
-        <div class="div-login">
-            <div class="login-usuario">
-                <div>
-                    <label for="">Usuário / e-mail</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="username" type="text">
-                </div>
-                <br>
-                <br>
-                <div>
-                    <label for="">Senha</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="password" type="password">
-                </div>
-            </div>
-            <div class="div-logar">
-                <div class="div-btn-logar">
-                    <button id="button-logar" class="btn-logar">Logar</button>
-                    <script src="/login/scripts/login-scripts.js"></script>
-                </div>
-                <div class="login-option">
-                    <div class="login-text-options">
-                        <span>Esqueci minha senha</span>
+        <div class="div-cad-pet">
+            <div class="data-cad-pet">
+                <div style="display: flex;">
+                    <div class="cad-pet-nome-idade">
+                        <label id="cad-pet-label-nome" for="">Nome</label>
                         <br>
-                        <span>Registrar-se</span>
+                        <input type="text" id="cad-pet-input-nome">
+                    </div>
+                    <div class="cad-pet-idade">
+                        <label id="cad-pet-label-idade" for="">idade</label>
+                        <br>
+                        <input type="text" id="cad-pet-input-idade">
                     </div>
                 </div>
+
+                <div class="cad-pet-tipo">
+                    <label id="cad-pet-label-tipo" for="">Tipo (Cão, gato etc)</label>
+                    <br>
+                    <input type="text" id="cad-pet-input-tipo">
+                </div>
+
+                <div style="display: flex;">
+                    <div class="cad-pet-raca-porte">
+                        <label id="cad-pet-label-raca" for="">Raça</label>
+                        <br>
+                        <input type="text" id="cad-pet-input-raca">
+                    </div>
+                    <div class="cad-pet-porte">
+                        <label id="cad-pet-label-porte" for="">Porte</label>
+                        <br>
+                        <input type="text" id="cad-pet-input-porte">
+                    </div>
+                </div>
+                <div class="cad-pet-confirmar-cadastro" style="display: flex;">
+                    <button id="cad-pet-confirmar-cadastro">Cadastrar Pet</button>
+                </div>
+                <script src="/global/scripts/cadastro-pet.js"></script>
             </div>
         </div>
     <div class="content-footer">
