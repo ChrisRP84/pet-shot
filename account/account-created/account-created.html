@@ -4,14 +4,14 @@
     <meta charset='utf-8'>
     <title>Pet Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../../styles/global.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div style="border: none; width: 100%;">
-        <img src="../resources/imgs/header.png" alt="" width="100%" onclick="location.href='../../index.html'">
+        <img src="../../resources/imgs/header.png" alt="" width="100%" onclick="location.href='../../index.html'">
         <!-- <span>header</span> -->
     </div>
     <div class="search-and-login">
@@ -20,16 +20,15 @@
             <input type="text" id="edt-pesquisa" placeholder="Pesquisar">
         </div>
         <div style="border: none; width: 10%;">
-            <img src="../resources/icons/search.svg" alt="" style="padding-top: 6px;">
+            <img src="../../resources/icons/search.svg" alt="" style="padding-top: 6px;">
         </div>
         <div style="width: 50%; border: none; justify-content: right; text-align: right; display: flex;">
             <div>
-                <img src="../resources/icons/person.svg" alt="" style="padding-top: 6px; padding-right: 2px;">
+                <img src="../../resources/icons/person.svg" alt="" style="padding-top: 6px; padding-right: 2px;">
             </div>
             <div>
                 <label id="label-entrar" for="" class="label-form" style="margin-right: 20px; padding-top: 10px;"><a href="/login/login.html">Entre ou cadastre-se</a></label>
             </div>
-            <script src="/global/scripts/validate-user.js"></script>
         </div>
     </div>
     <!-- <hr> -->
@@ -47,38 +46,9 @@
     <br>
     <!-- <hr> -->
     <div class="content-data">
-        <div class="div-login">
-            <div class="login-usuario">
-                <div>
-                    <label for="">Usuário / e-mail</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="username" type="text">
-                </div>
-                <br>
-                <br>
-                <div>
-                    <label for="">Senha</label>
-                    <br>
-                </div>
-                <div>
-                    <input id="password" type="password">
-                </div>
-            </div>
-            <div class="div-logar">
-                <div class="div-btn-logar">
-                    <button id="button-logar" class="btn-logar">Logar</button>
-                    <script src="/login/scripts/login-scripts.js"></script>
-                </div>
-                <div class="login-option">
-                    <div class="login-text-options">
-                        <span><a href="/account/pass-recover/pass-recover.html">Esqueci minha senha</a></span>
-                        <br>
-                        <span id="span-registrar"><a href="/account/account-create.html">Registrar-se</a></span>
-                    </div>
-                </div>
-            </div>
+        <div class="div-login" style="text-align: center;">
+           <h2 style="margin-top: 40px;">Conta criada com sucesso!</h2>
+           <h5 style="margin-bottom: 40px;">Verifique seu e-mail para confirmar sua conta</h5>
         </div>
     <div class="content-footer">
         <div class="div-footer">

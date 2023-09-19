@@ -99,7 +99,7 @@
 }
 .div-login{
     /* display: flex; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     width: 100%;
     /* letter-spacing: 1px; */
@@ -121,7 +121,7 @@
 .div-logar{
     justify-content: center;
     text-align: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-top: 20px;
 }
 .btn-logar{
@@ -393,3 +393,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+/* #span-registrar:hover{
+    color: #2972FF;
+} */

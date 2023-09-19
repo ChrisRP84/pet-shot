@@ -50,11 +50,11 @@
         <div class="div-login">
             <div class="login-usuario">
                 <div>
-                    <label for="">Usuário / e-mail</label>
+                    <label for="">E-mail</label>
                     <br>
                 </div>
                 <div>
-                    <input id="username" type="text">
+                    <input id="email" type="text">
                 </div>
                 <br>
                 <br>
@@ -65,22 +65,30 @@
                 <div>
                     <input id="password" type="password">
                 </div>
+                <br>
+                <br>
+                <div>
+                    <label for="">Confirmar Senha</label>
+                    <br>
+                </div>
+                <div>
+                    <input id="re-password" type="password">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div style="width: 100%; text-align: center;">
+                <span id="span-senha" style="color: red; font-weight: bold;">As senhas informadas não conferem!</span>
             </div>
             <div class="div-logar">
                 <div class="div-btn-logar">
-                    <button id="button-logar" class="btn-logar">Logar</button>
-                    <script src="/login/scripts/login-scripts.js"></script>
-                </div>
-                <div class="login-option">
-                    <div class="login-text-options">
-                        <span><a href="/account/pass-recover/pass-recover.html">Esqueci minha senha</a></span>
-                        <br>
-                        <span id="span-registrar"><a href="/account/account-create.html">Registrar-se</a></span>
-                    </div>
+                    <button id="button-criar" class="btn-logar">Criar conta</button>
+                    <script src="/global/scripts/account-create.js"></script>
                 </div>
             </div>
         </div>
     <div class="content-footer">
+        <!-- <span>footer</span>         -->
         <div class="div-footer">
             <span class="span-footer">Projeto Pet Shop</span>
             <br>
